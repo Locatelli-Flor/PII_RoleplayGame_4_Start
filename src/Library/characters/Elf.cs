@@ -14,5 +14,10 @@ namespace RoleplayGame.Characters
             this.Health = 120;
             this.AddItem(new Robes());
         }
+
+        public override void Curar()
+        {
+            this.Health = 120;
+        }
     }
 }

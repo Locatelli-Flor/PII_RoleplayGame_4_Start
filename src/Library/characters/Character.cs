@@ -15,6 +15,8 @@ namespace RoleplayGame.Characters
         }
 
         public string Name { get; set; }
+        public abstract void Curar();
+
 
         /// <summary>
         /// Nivel del vida del personaje.
@@ -140,5 +142,6 @@ namespace RoleplayGame.Characters
             }
             return $"{ this.GetType().Name } called { this.Name } with a { items }. Health: { this.Health }";
         }
+
     }
 }

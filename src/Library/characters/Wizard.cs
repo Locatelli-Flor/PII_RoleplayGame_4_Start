@@ -14,5 +14,11 @@ namespace RoleplayGame.Characters
             this.Health = 80;
             this.AddItem(new Magic());
         }
+        
+        public override void Curar()
+        {
+            this.Health = 80;
+        }
     }
+    
 }
